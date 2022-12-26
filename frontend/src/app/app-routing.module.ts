@@ -11,7 +11,8 @@ const routes: Routes = [
   {path:'product-detail',component:ProductDetailComponent},
   {path:'cart',component:CartComponent},
   {path:'address',component:AddressPageComponent},
-  {path:'shipping',component:ShippingPageComponent}
+  {path:'shipping',component:ShippingPageComponent},
+  {path:'', pathMatch:"full" ,redirectTo:'Home'}
 ];
 
 @NgModule({
