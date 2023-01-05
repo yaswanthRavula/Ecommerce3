@@ -3,15 +3,12 @@
     display: flex;
     width: 80%;
     margin: auto;
-    margin-top: 5%;
-    align-items: center;
+    margin-top: 3%;
+    align-items: flex-start;
     justify-content: space-between;
 }
 .col-2{
-    width: 300px;
-    position: fixed;
-    right: 8%;
-    top: 20%;
+    width: 280px;
 }
 .col-1{
     width: 60%;

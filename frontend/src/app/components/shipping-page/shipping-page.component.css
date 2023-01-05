@@ -1,6 +1,6 @@
 .container{
     display: flex;
-    width: 90%;
+    width: 80%;
     margin: auto;
     margin-top: 2%;
     align-items: center;
@@ -34,10 +34,7 @@ opacity: 0.2;
 }
 
 .col-2{
-    width: 300px;
-    position: fixed;
-    right: 8%;
-    top: 20%;
+    width: 280px;
 }
 .input-container{
     display: flex;
@@ -51,7 +48,7 @@ opacity: 0.2;
     font-family: 'Proxima-Nova';
 font-style: normal;
 font-weight: 600;
-font-size: 14px;
+font-size: 12px;
 line-height: 14px;
 /* identical to box height */
 
@@ -72,6 +69,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 16px;
 /* identical to box height */
+font-size: 14px;
 
 
 /* Dark */
@@ -83,7 +81,7 @@ color: #17183B;
     font-family: 'Proxima-Nova';
 font-style: normal;
 font-weight: 600;
-font-size: 16px;
+font-size: 14px;
 line-height: 16px;
 /* identical to box height */
 
@@ -108,7 +106,7 @@ opacity: 0.6;
     font-family: 'Proxima-Nova';
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 16px;
     color: #17183B;
 }
@@ -116,7 +114,7 @@ opacity: 0.6;
     font-family: 'Proxima-Nova';
 font-style: normal;
 font-weight: 400;
-font-size: 16px;
+font-size: 14px;
 line-height: 16px;
 /* identical to box height */
 
@@ -130,7 +128,7 @@ color: #17183B;
 font-style: normal;
 margin-top: 60px;
 font-weight: 600;
-font-size: 20px;
+font-size: 16px;
 line-height: 20px;
 /* identical to box height */
 

@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FirstpageComponent } from './components/firstpage/firstpage.component';
@@ -20,6 +19,10 @@ import { OrderSummaryTemplateComponent } from './components/shared/order-summary
 import { AdressTemplateComponent } from './components/shared/adress-template/adress-template.component';
 import { AddressPageComponent } from './components/address-page/address-page.component';
 import { ShippingPageComponent } from './components/shipping-page/shipping-page.component';
+import { PlansPageComponent } from './components/shared/plans-page/plans-page.component';
+import { PlanTemplateComponent } from './components/shared/plan-template/plan-template.component';
+import { ProductAddComponent } from './components/admin/product-add/product-add.component';
+import {MatSelectModule} from '@angular/material/select';
 
 @NgModule({
   declarations: [
@@ -40,11 +43,16 @@ import { ShippingPageComponent } from './components/shipping-page/shipping-page.
     OrderSummaryTemplateComponent,
     AdressTemplateComponent,
     AddressPageComponent,
-    ShippingPageComponent
+    ShippingPageComponent,
+    PlansPageComponent,
+    PlanTemplateComponent,
+    ProductAddComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]

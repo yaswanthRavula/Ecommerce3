@@ -2,14 +2,14 @@
     width: 100%;
     border: 1px solid rgba(0, 0, 0, 0.237);
     text-align: left;
-    padding: 20px 30px;
+    padding: 10px 20px;
     border-radius: 2px;
 }
 .order-summary{
     font-family: 'Proxima-Nova';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 24px;
     /* identical to box height */
 
@@ -22,6 +22,7 @@
 .order-item{
     display: flex;
     justify-content: space-between;
+    margin: 0;
 }
 .total-container{
     display: flex;
@@ -34,8 +35,8 @@
     font-family: 'Proxima-Nova';
 font-style: normal;
 font-weight: 600;
-font-size: 14px;
-line-height: 16px;
+font-size: 12px;
+line-height: 12px;
 /* identical to box height */
 
 letter-spacing: 0.02em;
@@ -48,8 +49,8 @@ color: #17183B;
     font-family: 'Proxima-Nova';
 font-style: normal;
 font-weight: 600;
-font-size: 14px;
-line-height: 16px;
+font-size: 12px;
+line-height: 12px;
 /* identical to box height */
 
 text-align: right;
@@ -64,8 +65,8 @@ color: #17183B;
     font-family: 'Proxima-Nova';
 font-style: normal;
 font-weight: 400;
-font-size: 14px;
-line-height: 16px;
+font-size: 12px;
+line-height: 12px;
 /* identical to box height */
 
 letter-spacing: 0.02em;
@@ -78,8 +79,8 @@ color: #17183B;
     font-family: 'Proxima-Nova';
 font-style: normal;
 font-weight: 400;
-font-size: 14px;
-line-height: 16px;
+font-size: 12px;
+line-height: 12px;
 /* identical to box height */
 
 text-align: right;
@@ -93,7 +94,7 @@ color: #17183B;
     font-family: 'Proxima-Nova';
 font-style: normal;
 font-weight: 400;
-font-size: 13px;
+font-size: 11px;
 line-height: 16px;
 /* identical to box height */
 margin-top: 20px;
@@ -111,7 +112,7 @@ button{
     font-family: 'Proxima-Nova';
 font-style: normal;
 font-weight: 800;
-font-size: 12px;
+font-size: 10px;
 /* identical to box height */
 
 text-align: center;
@@ -123,13 +124,16 @@ color: #FFFFFF;
 background: #8D448B;
 border: none;
 border-radius: 2px;
-height: 40px;
+height: 35px;
 width: 100%;
 
 }
 input{
     width: 95%;
-    margin: 20px 0;
-    padding: 10px 0px;
-    padding-left: 10px;
+    margin: 15px 0;
+    padding: 5px 0px;
+    padding-left: 5px;
+}
+input::placeholder{
+    font-size: 11px;
 }
